@@ -1,0 +1,15 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--r-background-color);
+  width: 90%;
+  padding: 3rem;
+}
+
+a {
+  color: var(--lt-color-gray-600);
+  text-decoration: none;
+  line-height: 1.3rem;
+}

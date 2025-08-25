@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher");
+
+body .reveal {
+  background-color: #F9F9F9;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5 
+{
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+  text-transform: none;
+  color: black;
+}
+
+.reveal h1 { font-size: 2.5em; }
+.reveal h2 { font-size: 2em; }
+.reveal h3 { font-size: 1.4em; }
+.reveal h4 { font-size: 1.2em; }
+.reveal p  { font-size: .7em }
+.reveal ul { font-size: .7em; }
+
+
+.reveal code {
+  font-size: .9em;
+  background: rgba(0, 0, 0, .1);
+  padding: .2rem;
+}
+
+.reveal pre code {
+  font-size: .8em;
+  background-color: #282c34;;
+  color: #abb2bf;
+  padding: 1rem;
+}
+
+.reveal section img {
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+}
+
+.reveal table {
+  font-size: .8em;
+}
+
+.reveal table td, .reveal table th {
+  text-align: center;
+}
+
+.reveal table th {
+  color: black;
+  font-size: .8em;
+  border-bottom: 3px solid;
+}
+
+.reveal table td {
+  padding: .5em;
+  font-size: .7em;
+}
