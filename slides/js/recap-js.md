@@ -193,36 +193,72 @@ console.log(number1 + number2);
 
 ---
 
-## Se simplifier la vie
+## Boucles et conditions
 
---
-
-### ESLint
-
-Linter JavaScript
-
---
-
-### Le plugin VSCode
-
-```bash
-code --install-extension dbaeumer.vscode-eslint
-```
-
---
-
-### `.eslintrc`
-
-```json
-{
-  "env": {
-    "browser": true
-  },
-  "extends": "eslint:recommended",
-  "rules": {
-    "indent": ["error", 2],
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"]
-  }
+```js
+// Boucle for
+for (let i = 0; i < 5; i++) {
+  console.log(i);
 }
 ```
+
+--
+
+```js
+// boucle while
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+```
+
+--
+
+```js
+//boucle for...of
+const array = ["pomme", "banane", "cerise"];
+for (const fruit of array) {
+  console.log(fruit);
+}
+```
+
+```js
+//boucle for...in avec objet
+const player = { name: "Link", level: 3, alive: true };
+for (const key in player) {
+  console.log(key, player[key]);
+}
+```
+
+--
+
+```js
+// Condition if
+const age = 20;
+if (age >= 18) {
+  console.log("Majeur");
+} else {
+  console.log("Mineur");
+}
+```
+
+--
+
+### Fonctions
+
+```js
+function greet(name) {
+  return "Hello " + name + "!";
+}
+console.log(greet("Link"));
+```
+
+Fonctions fléchées (ES6)
+
+```js
+const greet = (name) => "Hello " + name + "!";
+console.log(greet("Link"));
+```
+
+---

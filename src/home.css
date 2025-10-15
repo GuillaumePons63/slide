@@ -8,6 +8,10 @@ body {
   padding: 3rem;
 }
 
+html.reveal-full-page {
+    overflow: scroll!important;
+}
+
 a {
   color: var(--lt-color-gray-600);
   text-decoration: none;

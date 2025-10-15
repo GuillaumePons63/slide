@@ -97,8 +97,6 @@ const taille = 185;
 
 Les `;` ne sont pas obligatoires en JS, si on passe à la ligne.
 
-Mais nous, on les mettra **tout le temps** !
-
 </div>
 
 <div class="fragment">
@@ -145,7 +143,7 @@ false;
 ```js
 // String
 
-"Coucou la promo avec des apostrophes (quotes)";
+'Coucou la promo avec des apostrophes (quotes)';
 
 "Un coucou avec des guillemets (double quotes)";
 
